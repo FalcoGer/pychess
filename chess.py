@@ -346,7 +346,6 @@ def describeMove(stockfish: Stockfish, move: str, color: bool = True) -> str:
         cap = None
         pieceMoving = str(stockfish.get_what_is_on_square(src)).replace("Piece.", "")        
         attrs = ['bold']
-        attrs = ['bold']
         fg, bg = None, None
         tgt_fg, tgt_bg = ColorConst.FEN_BG, ColorConst.FEN_BG
         if color:
