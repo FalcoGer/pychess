@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+/bin
+/lib
+/share
+/py_stockfish.wpr
+/py_stockfish.wpu
+/pyvenv.cfg
+
